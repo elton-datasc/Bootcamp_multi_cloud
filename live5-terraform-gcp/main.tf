@@ -12,7 +12,7 @@ provider "google" {
 }
 
 resource "google_container_cluster" "primary" {
-  name               = "kubernetes-cluster-001"
+  name               = "kubernetes-aquecimento"
   location           = var.gcp_region
   initial_node_count = 1
   enable_autopilot = true
